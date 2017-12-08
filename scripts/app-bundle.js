@@ -389,7 +389,7 @@ define('services/fixtures',['exports'], function (exports) {
   var Fixtures = function Fixtures() {
     _classCallCheck(this, Fixtures);
 
-    this.baseUrl = 'http://localhost:4000';
+    this.baseUrl = 'https://morning-ridge-51855.herokuapp.com';
     this.methods = ['Cash', 'PayPal'];
   };
 
